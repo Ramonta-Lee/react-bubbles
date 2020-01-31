@@ -46,7 +46,7 @@ class Login extends Component {
           <input
             type="text"
             name="username"
-            placeholder="Username"
+            placeholder="Type test"
             value={this.state.credentials.username}
             onChange={this.handleChange}
             required
@@ -56,7 +56,7 @@ class Login extends Component {
           <input
             type="password"
             name="password"
-            placeholder="Password"
+            placeholder="Type 1234"
             value={this.state.credentials.password}
             onChange={this.handleChange}
             required
